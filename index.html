@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsapp</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style_home.css">
+</head>
+<body style="background-color: #0c0f21;">
+    <header class="" >
+        <div class="navbar navbar-expand-md" >
+            <div class="container">
+              <button 
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainav"
+              ><span class="navbar-toggler-icon"></span></button>
+        
+              <div class="collapse navbar-collapse marko" id="mainav text-white">
+                  <ul class="navbar-nav  ">
+                    <li class="nav-item dot"><a href="#" class="nav-link px-3 text-white fs-4" style="border-radius: 100px;
+                      background-color: #0c0f21;"> Home </a></li>
+                    <li class="nav-item"><a href="./components/about.html" class="nav-link px-5 text-white fs-4 " >About </a></li>
+                    <li class="nav-item"><a href="./components/contact.html" class="dot nav-link px-3 text-white fs-3">Contact Us</a></li>
+                    
+                  </ul>
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a href="" class="dot nav-link px-3 text-white text-end "><span class="fs-3 p-2" id="numOfCounter"></span><i class="fa-solid fa-star fs-3 navStar"></i></a></li>
+                    <li class="nav-item"><a href="" class="dot nav-link px-3 text-white text-end "><span class="fs-3 p-2" id="numOfLove"></span><i class="fa-solid fa-heart fs-3 navLove "></i></a></li>
+                   
+                  </ul>
+                </div> 
+              </div>
+            </div> 
+            
+          </div>
+    </header>
+
+    <div class="" style="height: 520px; ">
+        <div class="container justify-content-around " >
+        
+            <div class="main-section row col-12 m-2 p-2 overflow-hidden" >
+                <div class="slider my-5 p-2" >
+                  <img id="slider" class="w-100 rounded-4" src="./assets/0.jpg" alt="" style="height: 250px;" >
+                 </div>
+                <div class="row search justify-content-around my-5" >
+                  <input id="searchNow" type="text" style="background-color: #23273b;" class="fs-5 searchBox border-0   text-white rounded-4 col-6" id="" placeholder="type here to search">
+                  <div class="col-2">
+                    <button id="searchButton" class="btn searchBox border-0 text-white overflow-hidden fs-5 w-100 h-100" style="background-color: #23273b;">search</button>
+                  </div>
+                  <div class="col-2 ">
+                    <select style="background-color: #23273b;" id="contury" class="fs-5 searchBox text-white form-select form-select-sm" aria-label=".form-select-sm example">
+                      <option value="eg">Egypt</option>
+                      <option value="ae">Emriates</option>
+                      <option value="ar">Argentina</option>
+                      <option value="at">Austria</option>
+                      <option value="au">Australia</option>
+                      <option value="be">Belgium</option>
+                      <option value="bg">Bulgaria</option>
+                      <option value="br">Braziel</option>
+                      <option value="de">Germany</option>
+                      <option value="eg">Egypt</option>
+                      <option value="fr">France</option>
+                      <option value="za">South Africa</option>
+                    </select>
+                  </div>
+                  <div class="col-2 ">
+                    <select id="categ" style="background-color: #23273b;" class="fs-5 searchBox text-white form-select form-select-sm" aria-label=".form-select-sm example">
+                      <option value="sports">sports</option>
+                      <option value="general">general</option>
+                      <option value="business">business</option>
+                      <option value="health">health</option>
+                      <option value="science">science</option>
+                      <option value="technology">technology</option>
+                    </select>
+                  </div>
+                    
+                </div>
+                <div class="row page news " >
+                 </div>
+                 <div class="paggtion">
+                  <nav >
+                    <ul class="pagination justify-content-center m-5" id="pagination">
+                      <li class="page-item ">
+                        <span class="page-link">Previous</span>
+                      </li>
+                      
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                      </ul>
+                  </nav>
+                </div> 
+                
+                
+
+            </div>
+        </div>
+        <footer class=" text-center ">
+         
+          <div class="container py-2 ">
+          
+            <section class="">
+            
+              <a class=" footIcon fs-4  m-3" href="#" >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a class=" footIcon fs-4  m-3" href="#!"  >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a class=" footIcon fs-4  m-3" href="#!"  >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a class=" footIcon fs-4 m-3 " href="#!"  >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a class=" footIcon fs-4 m-3 " href="#!"  >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <div class="Copyright text-center m-2" >
+                © 2023 Copyright: Marko Magdy
+              </div>
+            </section>
+          </div>
+        </footer>
+       
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./components/home.js"></script>
+</body>
+</html>

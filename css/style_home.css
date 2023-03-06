@@ -1,0 +1,129 @@
+:root{
+    --bgcolor:#0c0f21;
+    --bgitem:#23273b;
+
+}
+header{
+    background-color:var(--bgitem);
+    border-bottom: solid var(--bgcolor) 2px;
+}
+*{
+    font-family: Roboto;
+}
+.searchBox{
+    border: none;
+    outline: none;
+}
+.newsContainer{
+    background-color:var(--bgcolor) ; 
+    border: none;
+}
+.newsItem{
+    overflow: hidden;
+    /* height: 500px; */
+    background-color: var(--bgitem);
+}
+.card-title{
+    color: #5BC0F8;
+}
+.newsItem-desc,.missionDesc {
+    color:blanchedalmond ;
+    font-family: "Lucida Console";
+    font-size: 18px ;
+    text-align: justify;
+}
+.newsItem-img:hover{
+    transform: scale(1.2);
+}
+.page-link{
+    color:#5BC0F8;
+    background-color: var(--bgitem);
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+
+}
+
+
+
+
+.hidden {
+  display: none;
+}
+
+.pagination-container {
+  width: calc(100% - 2rem);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 0;
+  justify-content: center;
+}
+footer{
+    background-color: var(--bgitem);
+    width: 100%;
+}
+
+
+.footIcon,.Copyright{
+    color:#5BC0F8;
+    text-decoration: none;
+}
+
+.about-section,.team,.contact{
+    color:white ;
+}
+.formInput{
+    background-color: #23273b;
+    border: none;
+    outline: none;
+    color: #5BC0F8;
+}
+.formLabel{
+    color: #5BC0F8;
+    text-align: center;
+
+}
+.fa-star,.fa-solid{
+    color: #5BC0F8;
+    text-align: end;
+}
+.iconButton{
+    background-color: #23273b;
+    border: none;
+}
+.fa-solid,.fa-regular{
+    color: #5BC0F8;
+}
+.aboutItem{
+    background-color: var(--bgitem);
+    text-align: start;
+    color: #5BC0F8;
+    font-family: "Lucida Console";
+    font-size: 18px ;
+}
+.errorMsg{
+    display: none;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+
+}
+.errorStyle{
+    border: 3px solid red;
+}
+.doneStyle{
+    border: 1px solid rgb(9, 0, 128);
+}
+.marko{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.box{
+    display: flex ;
+    align-items: center ;
+    justify-content:start;
+}
